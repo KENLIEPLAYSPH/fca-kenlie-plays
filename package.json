@@ -1,0 +1,191 @@
+{
+  "_from": "fca-kenlie-plays@latest",
+  "_id": "fca-kenlie-plays@31.40.21",
+  "_inBundle": false,
+  "_integrity": "sha512-bipCCx3+/jsz+SODaAQ/UJjqoQg59xOhETKUzoMaLerrsre+hzqDk/l5yE4RhdzXYcwRAOxNpyjhtVE9sH9GnA==",
+  "_location": "/fca-kenlie-plays",
+  "_phantomChildren": {
+    "abort-controller": "3.0.0",
+    "aproba": "1.2.0",
+    "async-limiter": "1.0.1",
+    "asynckit": "0.4.0",
+    "aws-sign2": "0.7.0",
+    "aws4": "1.11.0",
+    "base64-js": "1.5.1",
+    "boolbase": "1.0.0",
+    "caseless": "0.12.0",
+    "child_process": "1.0.2",
+    "color-support": "1.1.3",
+    "combined-stream": "1.0.8",
+    "commist": "1.1.0",
+    "concat-stream": "2.0.0",
+    "console-control-strings": "1.1.0",
+    "core-util-is": "1.0.2",
+    "debug": "4.3.2",
+    "delegates": "1.0.0",
+    "duplexify": "4.1.2",
+    "emoji-regex": "8.0.0",
+    "end-of-stream": "1.4.4",
+    "events": "3.3.0",
+    "extend": "3.0.2",
+    "forever-agent": "0.6.1",
+    "graceful-fs": "4.2.6",
+    "har-validator": "5.1.5",
+    "has-unicode": "2.0.1",
+    "help-me": "3.0.0",
+    "http-signature": "1.2.0",
+    "ieee754": "1.2.1",
+    "inherits": "2.0.4",
+    "is-typedarray": "1.0.0",
+    "isarray": "1.0.0",
+    "isstream": "0.1.2",
+    "json-stringify-safe": "5.0.1",
+    "jsonfile": "6.1.0",
+    "jssha": "3.2.0",
+    "lru-cache": "6.0.0",
+    "mime-types": "2.1.35",
+    "minimist": "1.2.6",
+    "mqtt-packet": "6.10.0",
+    "nth-check": "2.0.1",
+    "number-allocator": "1.0.10",
+    "oauth-sign": "0.9.0",
+    "performance-now": "2.1.0",
+    "process": "0.11.10",
+    "process-nextick-args": "2.0.1",
+    "proxy-from-env": "1.1.0",
+    "psl": "1.8.0",
+    "pump": "3.0.0",
+    "punycode": "2.1.1",
+    "qs": "6.5.3",
+    "readable-stream": "3.6.0",
+    "reinterval": "1.1.0",
+    "rfdc": "1.3.0",
+    "safe-buffer": "5.2.1",
+    "set-blocking": "2.0.0",
+    "split2": "3.2.2",
+    "stream-shift": "1.0.1",
+    "tunnel-agent": "0.6.0",
+    "ultron": "1.1.1",
+    "universalify": "2.0.0",
+    "url-parse": "1.5.10",
+    "util-deprecate": "1.0.2",
+    "uuid": "3.4.0",
+    "xtend": "4.0.2"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "fca-kenlie-plays@latest",
+    "name": "fca-kenlie-plays",
+    "escapedName": "fca-kenlie-plays",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fca-kenlie-plays/-/fca-kenlie-plays-31.40.21.tgz",
+  "_shasum": "deae4ab7b267fa85a35311c1a48dde4e7ac2bb53",
+  "_spec": "fca-kenlie-plays@latest",
+  "author": {
+    "name": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki, KENLIEPLAYS"
+  },
+  "bugs": {
+    "url": "https://github.com/KENLIEPLAYSPH/fca-kenlie-plays/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "aes-js": "latest",
+    "assert": "latest",
+    "bluebird": "latest",
+    "chalk": "4.1.2",
+    "cheerio": "latest",
+    "crypto": "latest",
+    "crypto-js": "latest",
+    "express": "latest",
+    "file-url": "^3.0.0",
+    "got": "^11.8.3",
+    "horizon-sp": "latest",
+    "https-proxy-agent": "latest",
+    "is-hexcolor": "^1.0.0",
+    "jsdom": "^20.0.3",
+    "lodash": "",
+    "mqtt": "latest",
+    "npmlog": "latest",
+    "os": "latest",
+    "path": "latest",
+    "playwright": "^1.29.1",
+    "pretty-ms": "7.0.1",
+    "readline": "latest",
+    "request": "latest",
+    "synthetic-horizon-database": "latest",
+    "totp-generator": "latest",
+    "tough-cookie": "^4.1.2",
+    "uuid-apikey": "latest",
+    "webshot": "^0.18.0",
+    "webshot-node": "^0.18.3",
+    "websocket-stream": "latest"
+  },
+  "deprecated": false,
+  "description": "Facebook Chat API has been remade by KENLIEPLAYS to prevent getting (available) and paying for accounts (why not?).",
+  "devDependencies": {
+    "eslint": "latest",
+    "mocha": "latest",
+    "prettier": "latest"
+  },
+  "engines": {
+    "node": ">=14.x <16.x"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "homepage": "https://github.com/HarryWakazaki/fca-kenlie-plays#readme",
+  "keywords": [
+    "Fca horizon",
+    "fca-horizon-remake",
+    "horizon fca",
+    "horizon",
+    "Fca kenlieplays",
+    "fca-kenlie-plays",
+    "kenlieplays fca",
+    "kenlieplays"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "fca-kenlie-plays",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/KENLIEPLAYSPH/fca-kenlie-plays.git"
+  },
+  "scripts": {
+    "lint": "eslint **.js",
+    "prettier": "prettier utils.js src/* --write",
+    "test": "mocha"
+  },
+  "version": "31.40.21"
+}
