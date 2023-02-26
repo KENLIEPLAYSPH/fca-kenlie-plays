@@ -1,6 +1,6 @@
 {
   "_from": "fca-kenlie-plays@latest",
-  "_id": "fca-kenlie-plays@31.40.21",
+  "_id": "fca-kenlie-plays@32.1.1",
   "_inBundle": false,
   "_integrity": "sha512-bipCCx3+/jsz+SODaAQ/UJjqoQg59xOhETKUzoMaLerrsre+hzqDk/l5yE4RhdzXYcwRAOxNpyjhtVE9sH9GnA==",
   "_location": "/fca-kenlie-plays",
@@ -86,7 +86,7 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/fca-kenlie-plays/-/fca-kenlie-plays-31.40.21.tgz",
+  "_resolved": "https://registry.npmjs.org/fca-kenlie-plays/-/fca-kenlie-plays-32.1.1.tgz",
   "_shasum": "deae4ab7b267fa85a35311c1a48dde4e7ac2bb53",
   "_spec": "fca-kenlie-plays@latest",
   "author": {
@@ -187,5 +187,5 @@
     "prettier": "prettier utils.js src/* --write",
     "test": "mocha"
   },
-  "version": "32.0.1"
+  "version": "32.1.1"
 }
